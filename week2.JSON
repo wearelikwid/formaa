@@ -73,15 +73,17 @@
             "duration": "3 minutes"
           },
           {
-            "name": "2 rounds with 10kg plate or DB",
+            "name": "Circuit with 10kg plate or DB",
+            "rounds": 2,
             "exercises": [
               {
                 "name": "Squat jumps",
                 "reps": 10
               },
               {
-                "name": "Reverse lunges (1 is 1)",
-                "reps": 10
+                "name": "Reverse lunges",
+                "reps": 10,
+                "note": "1 is 1"
               }
             ]
           }
@@ -202,8 +204,8 @@
         },
         {
           "name": "TRX high plank",
-          "note": "hands in TRX",
-          "duration": "40 seconds"
+          "duration": "40 seconds",
+          "note": "hands in TRX"
         },
         {
           "name": "Hanging leg raises",
@@ -236,7 +238,7 @@
       "warmup": {
         "name": "Warm-up",
         "type": "AMRAP",
-        "duration": "3 minutes",
+        "time": "3 minutes",
         "exercises": [
           {
             "name": "Push-ups",
@@ -256,7 +258,7 @@
         {
           "name": "Circuit 1",
           "type": "AMRAP",
-          "duration": "12 minutes",
+          "time": "12 minutes",
           "exercises": [
             {
               "name": "Burpees",
@@ -277,7 +279,7 @@
         {
           "name": "Circuit 2",
           "type": "AMRAP",
-          "duration": "12 minutes",
+          "time": "12 minutes",
           "exercises": [
             {
               "name": "DB burpees",
@@ -285,9 +287,10 @@
               "reps": 8
             },
             {
-              "name": "DB plank row (1 is 1)",
+              "name": "DB plank row",
               "weight": "12.5kg",
-              "reps": 10
+              "reps": 10,
+              "note": "1 is 1"
             },
             {
               "name": "DB double snatch",
@@ -299,7 +302,7 @@
         {
           "name": "Circuit 3",
           "type": "AMRAP",
-          "duration": "12 minutes",
+          "time": "12 minutes",
           "exercises": [
             {
               "name": "Slam ball",
