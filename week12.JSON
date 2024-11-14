@@ -1,0 +1,276 @@
+{
+  "week12": {
+    "upperBody": {
+      "rounds": 4,
+      "pullVariations": [
+        {
+          "name": "Wide pull ups",
+          "reps": 10
+        },
+        {
+          "name": "Chin ups",
+          "reps": 10
+        },
+        {
+          "name": "Narrow grip pull up",
+          "reps": 10
+        },
+        {
+          "name": "Mixed grip pullup",
+          "reps": 8,
+          "note": "4 each grip"
+        },
+        {
+          "name": "Head bangers",
+          "reps": 15
+        }
+      ],
+      "pushVariations": [
+        {
+          "name": "Straight bar dips",
+          "reps": 15
+        },
+        {
+          "name": "Incline push ups",
+          "reps": 20
+        },
+        {
+          "name": "Push ups",
+          "reps": 20
+        },
+        {
+          "name": "Diamond push ups",
+          "reps": 15
+        },
+        {
+          "name": "Hindu push ups",
+          "reps": "8-10"
+        },
+        {
+          "name": "Decline pushups",
+          "reps": 15
+        },
+        {
+          "name": "Pike pushups",
+          "reps": 8
+        }
+      ]
+    },
+    "lowerBody": {
+      "sections": [
+        {
+          "name": "Plyometric Focus",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Broad jumps",
+              "reps": 15
+            },
+            {
+              "name": "Tuck jumps",
+              "reps": 20
+            },
+            {
+              "name": "Depth jumps",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Balance Sequence",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Bosu squats",
+              "duration": "30 sec"
+            },
+            {
+              "name": "Single leg dead lift to backward lunge",
+              "reps": 10,
+              "note": "each leg"
+            },
+            {
+              "name": "Walking high knees with pause",
+              "reps": "20 steps"
+            }
+          ]
+        },
+        {
+          "name": "Strength Elements",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Dragon pistol squats",
+              "reps": 12,
+              "note": "or progression"
+            },
+            {
+              "name": "Natural glute-ham raises",
+              "reps": 15
+            },
+            {
+              "name": "Sprint in place",
+              "reps": 20,
+              "note": "high knees"
+            }
+          ]
+        },
+        {
+          "name": "Finisher",
+          "exercises": [
+            {
+              "name": "Jump rope double unders",
+              "reps": 100,
+              "note": "or 200 singles"
+            },
+            {
+              "name": "Calf raises with 1 sec hold at top",
+              "reps": 30
+            },
+            {
+              "name": "Hindu squats",
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+    "core": {
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Dragon flag negatives",
+              "reps": 15
+            },
+            {
+              "name": "Copenhagen plank",
+              "reps": 20,
+              "note": "10 each side"
+            },
+            {
+              "name": "TRX pike to knee tucks",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "exercises": [
+            {
+              "name": "Weighted plank with shoulder taps",
+              "duration": "40 seconds",
+              "weight": "+10kg"
+            },
+            {
+              "name": "Hollow body to arch body rolls",
+              "reps": 15
+            },
+            {
+              "name": "Dead bug progressions",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "exercises": [
+            {
+              "name": "Ring fallouts",
+              "reps": 20
+            },
+            {
+              "name": "Side plank with rotation",
+              "reps": 15,
+              "note": "each side"
+            },
+            {
+              "name": "L-sit holds",
+              "duration": "30 seconds"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "exercises": [
+            {
+              "name": "Ab wheel rollouts",
+              "reps": 15
+            },
+            {
+              "name": "Pallof press",
+              "reps": 20,
+              "note": "each side"
+            },
+            {
+              "name": "Hanging windshield wipers",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    },
+    "fullBody": {
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "KB clean and press",
+              "reps": 10,
+              "note": "each side"
+            },
+            {
+              "name": "Burpees",
+              "reps": 15
+            },
+            {
+              "name": "Kettlebell swings",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Dumbbell thrusters",
+              "reps": 12
+            },
+            {
+              "name": "Slam ball",
+              "reps": 15
+            },
+            {
+              "name": "Push-ups",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Finisher",
+          "type": "AMRAP",
+          "duration": "3 minutes",
+          "exercises": [
+            {
+              "name": "Push-ups",
+              "reps": 5
+            },
+            {
+              "name": "Squats",
+              "reps": 10
+            },
+            {
+              "name": "Mountain climbers",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
