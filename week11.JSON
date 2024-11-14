@@ -1,0 +1,370 @@
+{
+  "week11": {
+    "upperBody": {
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Incline barbell bench press",
+              "reps": ["15", "12", "10", "8"]
+            },
+            {
+              "name": "Decline push ups", 
+              "reps": "8-10"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "T-bar row",
+              "reps": ["15", "12", "10", "8"]
+            },
+            {
+              "name": "Lat pull down narrow grip",
+              "reps": ["15", "12", "10", "8"]
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Flat DB bench press",
+              "reps": 10
+            },
+            {
+              "name": "DB row",
+              "reps": 10,
+              "note": "each side"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Arnold shoulder press",
+              "reps": 10
+            },
+            {
+              "name": "Zigzag bar bicep curls",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 5",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "DB Front raises",
+              "reps": 10
+            },
+            {
+              "name": "DB upright row",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 6",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Cable shoulder side raises",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Circuit 7",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Dips",
+              "reps": 10
+            },
+            {
+              "name": "Tricep extension cable",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    "lowerBody": {
+      "circuits": [
+        {
+          "name": "Agility Circuit",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Ladder drills: in-out shuffle",
+              "duration": "30 sec"
+            },
+            {
+              "name": "Box step-ups with knee drive",
+              "reps": 10,
+              "note": "each leg"
+            },
+            {
+              "name": "Plyo lunges with rotation",
+              "reps": 10,
+              "note": "each side"
+            }
+          ]
+        },
+        {
+          "name": "Balance Work",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Single leg RDLs",
+              "reps": 20,
+              "note": "each leg",
+              "equipment": "bodyweight"
+            },
+            {
+              "name": "Shrimp squats",
+              "reps": 15,
+              "note": "each leg"
+            },
+            {
+              "name": "Single leg hops",
+              "duration": "30 sec",
+              "note": "each leg"
+            }
+          ]
+        },
+        {
+          "name": "Strength Focus",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Sissy squats",
+              "reps": 12
+            },
+            {
+              "name": "Nordic hamstring curls",
+              "reps": 15,
+              "note": "or negatives"
+            },
+            {
+              "name": "Jump rope single leg alternating",
+              "reps": 20,
+              "note": "10 each"
+            },
+            {
+              "name": "Wall sit with calf raises",
+              "duration": "30 sec"
+            }
+          ]
+        }
+      ]
+    },
+    "core": {
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Situps",
+              "reps": 20
+            },
+            {
+              "name": "Hollow rocks",
+              "reps": 10
+            },
+            {
+              "name": "Russian twists",
+              "reps": 20,
+              "note": "1 is 1"
+            },
+            {
+              "name": "Low plank",
+              "duration": "1 minute"
+            },
+            {
+              "name": "Toes to bar",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "exercises": [
+            {
+              "name": "Toe touches",
+              "reps": 30
+            },
+            {
+              "name": "Bicycle crunches",
+              "reps": 20
+            },
+            {
+              "name": "Wipers",
+              "reps": 10,
+              "note": "2 as 1"
+            },
+            {
+              "name": "Side kick through",
+              "reps": 15,
+              "note": "2 as 1"
+            },
+            {
+              "name": "Back extensions",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "exercises": [
+            {
+              "name": "Reverse crunch",
+              "reps": 15
+            },
+            {
+              "name": "Flutter kicks",
+              "reps": 15,
+              "note": "2 as 1"
+            },
+            {
+              "name": "Leg raises",
+              "reps": 15
+            },
+            {
+              "name": "High plank to superman plank",
+              "reps": 10
+            },
+            {
+              "name": "High plank knee to elbow",
+              "reps": 20,
+              "note": "2 as 1"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "exercises": [
+            {
+              "name": "Side plank dips Right",
+              "reps": 15
+            },
+            {
+              "name": "Side plank dips Left",
+              "reps": 15
+            },
+            {
+              "name": "Side crunches Right",
+              "reps": 25
+            },
+            {
+              "name": "Side crunches Left",
+              "reps": 25
+            }
+          ]
+        }
+      ]
+    },
+    "fullBody": {
+      "warmup": {
+        "exercises": [
+          {
+            "name": "Rope",
+            "duration": "3 minutes"
+          },
+          {
+            "name": "Rower",
+            "duration": "1 minute"
+          },
+          {
+            "name": "Ski erg",
+            "duration": "1 minute"
+          }
+        ]
+      },
+      "circuits": [
+        {
+          "name": "Barbell Complex",
+          "rounds": "3-4",
+          "note": "increase weight each round 30-35-40kg",
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "reps": 8
+            },
+            {
+              "name": "Squat clean",
+              "reps": 8
+            },
+            {
+              "name": "Push press",
+              "reps": 8
+            },
+            {
+              "name": "Back squat",
+              "reps": 8
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 8
+            },
+            {
+              "name": "Burpee over bar",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "KB thrusters",
+              "weight": "12kg each side",
+              "reps": 10
+            },
+            {
+              "name": "KB double swings",
+              "reps": 15
+            },
+            {
+              "name": "KB squat to upright row",
+              "weight": "16/20kg",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "DB double snatches",
+              "weight": "12.5/15kg",
+              "reps": 12
+            },
+            {
+              "name": "DB row",
+              "reps": 10,
+              "note": "2 as 1"
+            },
+            {
+              "name": "Toes to bar or knee raises",
+              "reps": "8-10"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
