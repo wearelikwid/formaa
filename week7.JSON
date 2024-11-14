@@ -1,0 +1,295 @@
+{
+  "week7": {
+    "upperBody": {
+      "name": "Upper Body",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Bench press",
+              "reps": "15-12-10-8"
+            },
+            {
+              "name": "Decline push up",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Barbell row reverse grip",
+              "weight": "50-60kg",
+              "reps": "10-12"
+            },
+            {
+              "name": "Wide pull up",
+              "reps": "8-10"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Barbell shoulder press",
+              "reps": "15-12-10-8"
+            },
+            {
+              "name": "Bench dips or diamond pushups",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Close grip chin ups",
+              "reps": "8-10"
+            },
+            {
+              "name": "Incline pushups",
+              "reps": "12-15"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 5",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Facepull",
+              "reps": 15
+            },
+            {
+              "name": "Reverse fly",
+              "note": "DB or machine",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    },
+    "lowerBody": {
+      "name": "Lower Body",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Calf raises machine",
+              "reps": 15
+            },
+            {
+              "name": "Achilles raises on the wall",
+              "reps": 15
+            },
+            {
+              "name": "Sled push w/rage3 pull"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Zercher squat or front squat",
+              "reps": 10
+            },
+            {
+              "name": "Hip thrusters",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Reverse lunges from step",
+              "reps": 10,
+              "note": "each leg"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Romanian deadlift",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 5",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Nordic hamstring curl",
+              "reps": 8
+            },
+            {
+              "name": "Nordic quads",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    "core": {
+      "name": "Core",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "KB single hand situp shoulder press Right/Left",
+              "reps": 10
+            },
+            {
+              "name": "KB hollow body leg raises",
+              "reps": 10
+            },
+            {
+              "name": "Hollow rocks",
+              "reps": 10
+            },
+            {
+              "name": "Back extensions",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Side plank twists",
+              "reps": 15
+            },
+            {
+              "name": "Side plank dip Right/Left",
+              "reps": 12
+            },
+            {
+              "name": "Wipers",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Core Circuit",
+          "note": "40 seconds on, 20 seconds off",
+          "exercises": [
+            {
+              "name": "Back extensions"
+            },
+            {
+              "name": "Weighted situp on bosu"
+            },
+            {
+              "name": "Hanging leg raises right/left over parallette"
+            },
+            {
+              "name": "TRX rollouts"
+            },
+            {
+              "name": "High plank picks tuck"
+            },
+            {
+              "name": "Leg raises"
+            },
+            {
+              "name": "Hanging knee raises"
+            },
+            {
+              "name": "L-sit"
+            }
+          ]
+        }
+      ]
+    },
+    "fullBody": {
+      "name": "Full Body",
+      "warmup": {
+        "exercises": [
+          {
+            "name": "Rope",
+            "duration": "3 minutes"
+          }
+        ]
+      },
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "note": "Pyramid 14 to 9",
+          "exercises": [
+            {
+              "name": "Wall balls",
+              "weight": "10-14 lbs"
+            },
+            {
+              "name": "KB swings",
+              "weight": "18-20kg"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "note": "Pyramid 10 to 1",
+          "exercises": [
+            {
+              "name": "Barbell thrusters",
+              "weight": "30-35kg"
+            },
+            {
+              "name": "Burpees jump over bar"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "note": "Pyramid 10 to 1",
+          "exercises": [
+            {
+              "name": "Barbell clean",
+              "weight": "34-40kg"
+            },
+            {
+              "name": "Slam ball",
+              "weight": "35 lbs"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "note": "Pyramid 10,8,6,4,2",
+          "exercises": [
+            {
+              "name": "DB man maker",
+              "weight": "12.5-15kg"
+            },
+            {
+              "name": "DB double snatches",
+              "weight": "12.5-15kg"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
