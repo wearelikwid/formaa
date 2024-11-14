@@ -1,0 +1,248 @@
+{
+  "week16": {
+    "upperBody": {
+      "name": "Upper Body",
+      "sections": [
+        {
+          "name": "Superset 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Weighted chin-ups",
+              "weight": "+10kg",
+              "reps": 10
+            },
+            {
+              "name": "Decline diamond push-ups",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Superset 2",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Ring archer push-ups",
+              "reps": 12
+            },
+            {
+              "name": "One arm rows",
+              "reps": 10,
+              "note": "each side"
+            }
+          ]
+        },
+        {
+          "name": "Circuit",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "90-degree push-ups",
+              "reps": 10
+            },
+            {
+              "name": "Pull-ups + explosive pull-ups",
+              "reps": {
+                "regular": 12,
+                "explosive": 4
+              }
+            },
+            {
+              "name": "Ring Y-raises",
+              "reps": 15
+            },
+            {
+              "name": "Ring turned out dips",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    "lowerBody": {
+      "name": "Lower Body",
+      "sections": [
+        {
+          "name": "Athletic Prep",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Multi-directional hops",
+              "duration": "30 sec"
+            },
+            {
+              "name": "Lateral shuffle with sprint",
+              "distance": "20 meters"
+            },
+            {
+              "name": "Backward run to forward sprint"
+            }
+          ]
+        },
+        {
+          "name": "Power Sequence",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Drop squat to jump",
+              "reps": 8
+            },
+            {
+              "name": "Alternating bound lunges",
+              "reps": 12
+            },
+            {
+              "name": "180-degree jump squats",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Balance Challenge",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Single-leg deadlift to backward hop",
+              "reps": 10,
+              "note": "each leg"
+            },
+            {
+              "name": "Walking single-leg squat touches"
+            },
+            {
+              "name": "Lateral lunge to curtsy",
+              "reps": 12,
+              "note": "each side"
+            }
+          ]
+        },
+        {
+          "name": "Finisher",
+          "type": "EMOM",
+          "duration": "10 minutes",
+          "exercises": {
+            "oddMinutes": {
+              "name": "Jump squats",
+              "reps": 15
+            },
+            "evenMinutes": {
+              "name": "Split jumps",
+              "reps": 20
+            }
+          }
+        }
+      ]
+    },
+    "core": {
+      "name": "Core",
+      "sections": [
+        {
+          "name": "Time-based Circuit",
+          "description": "40 seconds on/20 seconds off, 3 rounds",
+          "exercises": [
+            {
+              "name": "Ring support hold to RTO"
+            },
+            {
+              "name": "Plank reach and pull"
+            },
+            {
+              "name": "Figure-8 leg raises"
+            },
+            {
+              "name": "Side plank with leg lift"
+            },
+            {
+              "name": "Ab wheel knee tuck to rollout"
+            },
+            {
+              "name": "Dragon flag progressions"
+            }
+          ]
+        },
+        {
+          "name": "Strength Focus",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Weighted decline reverse crunch",
+              "weight": "+5kg",
+              "reps": 12
+            },
+            {
+              "name": "Single-arm plank with row",
+              "reps": 15
+            },
+            {
+              "name": "Jefferson curl to hollow body",
+              "reps": 10
+            },
+            {
+              "name": "Russian twist with press",
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+    "fullBody": {
+      "name": "Full Body",
+      "sections": [
+        {
+          "name": "Every 3 minutes for 15 minutes",
+          "exercises": [
+            {
+              "name": "Dumbbell thrusters",
+              "reps": 10
+            },
+            {
+              "name": "Kettlebell swings",
+              "reps": 12
+            },
+            {
+              "name": "Burpees",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Circuit",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Ball slams",
+              "reps": 15
+            },
+            {
+              "name": "Push-ups",
+              "reps": 12
+            },
+            {
+              "name": "Walking lunges",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "name": "Finisher",
+          "description": "1 minute each",
+          "exercises": [
+            {
+              "name": "Plank hold",
+              "duration": "1 minute"
+            },
+            {
+              "name": "Jump rope",
+              "duration": "1 minute"
+            },
+            {
+              "name": "Squat hold",
+              "duration": "1 minute"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
