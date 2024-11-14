@@ -105,7 +105,8 @@
     },
     "lowerBody": {
       "name": "Lower Body",
-      "circuit": {
+      "mainCircuit": {
+        "name": "Circuit",
         "note": "straight through",
         "exercises": [
           {
@@ -184,8 +185,8 @@
         },
         {
           "name": "Swiss ball superman plank",
-          "note": "legs on ball",
-          "duration": "40 seconds"
+          "duration": "40 seconds",
+          "note": "legs on ball"
         },
         {
           "name": "Hanging knee raises",
