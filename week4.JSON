@@ -3,9 +3,10 @@
     "upperBody": {
       "name": "Upper Body",
       "note": "Complete 4 rounds of supersets",
-      "supersets": [
+      "circuits": [
         {
           "name": "Superset 1",
+          "rounds": 4,
           "exercises": [
             {
               "name": "Neutral pull up",
@@ -18,27 +19,28 @@
           ]
         },
         {
-          "name": "Superset 2",
+          "name": "Superset 2", 
+          "rounds": 4,
           "exercises": [
             {
-              "name": "Row",
-              "note": "TRX or barbell 50-60kg",
+              "name": "Row (TRX or barbell)",
+              "weight": "50-60kg",
               "reps": 12
             },
             {
               "name": "Weighted pushups",
               "weight": "+15kg",
-              "reps": 10,
-              "additionalNote": "max bodyweight"
+              "reps": "10 + max bodyweight"
             }
           ]
         },
         {
           "name": "Superset 3",
+          "rounds": 4,
           "exercises": [
             {
               "name": "DB complex",
-              "exercises": [
+              "movements": [
                 {
                   "name": "Front raise",
                   "reps": 10
@@ -61,6 +63,7 @@
         },
         {
           "name": "Superset 4",
+          "rounds": 4,
           "exercises": [
             {
               "name": "Wide pullups",
@@ -75,6 +78,7 @@
         },
         {
           "name": "Superset 5",
+          "rounds": 4,
           "exercises": [
             {
               "name": "Chin ups",
@@ -216,76 +220,42 @@
         "name": "Main Circuit",
         "note": "40 seconds on, 20 seconds off, 4 rounds",
         "exercises": [
-          {
-            "name": "Back extensions"
-          },
-          {
-            "name": "V-ups"
-          },
-          {
-            "name": "TRX low plank"
-          },
-          {
-            "name": "Russian twists"
-          },
-          {
-            "name": "L-sit"
-          },
-          {
-            "name": "Leg raises on decline bench"
-          },
-          {
-            "name": "Roll outs"
-          },
-          {
-            "name": "Weighted situps with KB"
-          },
-          {
-            "name": "TRX high plank tuck pikes"
-          },
-          {
-            "name": "Hollow rocks"
-          }
+          "Back extensions",
+          "V-ups",
+          "TRX low plank",
+          "Russian twists",
+          "L-sit",
+          "Leg raises on decline bench",
+          "Roll outs",
+          "Weighted situps with KB",
+          "TRX high plank tuck pikes",
+          "Hollow rocks"
         ]
       }
     },
     "fullBody": {
       "name": "Full Body",
-      "rounds": 4,
-      "circuit": {
-        "name": "8-minute circuit",
-        "timing": "40 sec work/20 sec rest",
-        "exercises": [
-          {
-            "name": "Wall balls"
-          },
-          {
-            "name": "KB swings"
-          },
-          {
-            "name": "Burpee pull-ups"
-          },
-          {
-            "name": "KB squat clean"
-          },
-          {
-            "name": "Slam ball"
-          },
-          {
-            "name": "DB double snatch"
-          },
-          {
-            "name": "Row machine"
-          },
-          {
-            "name": "Side kick through"
+      "circuits": [
+        {
+          "name": "8-minute circuit",
+          "rounds": 4,
+          "note": "40 sec work/20 sec rest",
+          "exercises": [
+            "Wall balls",
+            "KB swings",
+            "Burpee pull-ups",
+            "KB squat clean",
+            "Slam ball",
+            "DB double snatch",
+            "Row machine",
+            "Side kick through"
+          ],
+          "finisher": {
+            "name": "Jump rope",
+            "duration": "2 minutes"
           }
-        ],
-        "finisher": {
-          "name": "Jump rope",
-          "duration": "2 minutes"
         }
-      }
+      ]
     }
   }
 }
