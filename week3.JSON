@@ -1,1 +1,281 @@
-
+{
+  "week3": {
+    "upperBody": {
+      "name": "Upper Body",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Wide pull up",
+              "reps": 10
+            },
+            {
+              "name": "Diamond push ups",
+              "reps": 12
+            },
+            {
+              "name": "Ring/TRX row",
+              "reps": 10
+            },
+            {
+              "name": "Straight bar dips",
+              "reps": 12
+            },
+            {
+              "name": "Neutral grip pull up",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Chin ups",
+              "reps": 8
+            },
+            {
+              "name": "Push ups",
+              "reps": 15
+            },
+            {
+              "name": "Face pull",
+              "reps": 12
+            },
+            {
+              "name": "Dips",
+              "reps": 15
+            },
+            {
+              "name": "Mixed grip pull up",
+              "reps": 8,
+              "note": "4 each grip"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "TRX T row",
+              "reps": 10
+            },
+            {
+              "name": "TRX Y row",
+              "reps": 10
+            },
+            {
+              "name": "TRX bicep curl",
+              "reps": 10
+            },
+            {
+              "name": "TRX face pull",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    "lowerBody": {
+      "name": "Lower Body",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Sumo squat",
+              "reps": 10
+            },
+            {
+              "name": "Sumo deadlift",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Back squats",
+              "reps": 10
+            },
+            {
+              "name": "Walking lunges with bar",
+              "weight": "30kg",
+              "reps": 10,
+              "note": "2 as 1",
+              "unit": "steps"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Hamstring curls machine/TRX",
+              "reps": 15,
+              "alternative": {
+                "name": "Nordic hamstring curls",
+                "reps": 10
+              }
+            },
+            {
+              "name": "Nordic quads",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Single leg calf raises",
+              "weight": "15kg",
+              "reps": 15
+            },
+            {
+              "name": "Achilles raises",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Circuit 5",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Split squat each side",
+              "weight": "8-10kg DBs",
+              "reps": 8
+            }
+          ]
+        }
+      ]
+    },
+    "core": {
+      "name": "Core",
+      "note": "40 seconds on, 20 seconds off, 4 rounds each",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "exercises": [
+            {
+              "name": "High plank feet on box",
+              "weight": "+10kg"
+            },
+            {
+              "name": "DB V-sit shoulder press"
+            },
+            {
+              "name": "TRX superman plank",
+              "note": "hands on TRX"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "exercises": [
+            {
+              "name": "Hanging knee raises with wall ball/DB",
+              "weight": "3-5kg"
+            },
+            {
+              "name": "KB Russian twists"
+            },
+            {
+              "name": "TRX High plank tuck pike alternating knee to elbow"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "exercises": [
+            {
+              "name": "TRX low plank",
+              "weight": "+10kg"
+            },
+            {
+              "name": "Hollow body hold"
+            },
+            {
+              "name": "Bicycle crunches"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "exercises": [
+            {
+              "name": "Tuck pike situps"
+            },
+            {
+              "name": "Hollow rocks"
+            },
+            {
+              "name": "Back extensions"
+            }
+          ]
+        }
+      ]
+    },
+    "fullBody": {
+      "name": "Full Body",
+      "circuits": [
+        {
+          "name": "For Time Circuit 1",
+          "note": "Alternate between exercises when resting",
+          "exercises": [
+            {
+              "name": "Wall ball",
+              "weight": "9-10kg",
+              "reps": 150
+            },
+            {
+              "name": "KB swings",
+              "weight": "20-24kg",
+              "reps": 150
+            }
+          ]
+        },
+        {
+          "name": "For Time Circuit 2",
+          "note": "Alternate between exercises when resting",
+          "exercises": [
+            {
+              "name": "KB thrusters",
+              "weight": "12kg",
+              "reps": 100
+            },
+            {
+              "name": "Chest to ground burpees",
+              "reps": 100
+            }
+          ]
+        },
+        {
+          "name": "For Time Circuit 3",
+          "exercises": [
+            {
+              "name": "Slam ball",
+              "weight": "35lb",
+              "reps": 100
+            },
+            {
+              "name": "Side kick through",
+              "note": "2 as 1",
+              "reps": 100
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
