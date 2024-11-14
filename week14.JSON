@@ -1,0 +1,254 @@
+{
+  "week14": {
+    "upperBody": {
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "repScheme": [15, 12, 10, 8],
+          "exercises": [
+            {
+              "name": "Weighted dips",
+              "weight": "+10kg"
+            },
+            {
+              "name": "Australian pull-ups",
+              "weight": "+15kg"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 4,
+          "repScheme": [15, 12, 10, 8],
+          "exercises": [
+            {
+              "name": "Ring push-ups"
+            },
+            {
+              "name": "Archer rows",
+              "note": "alternating sides"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Ring turned out support holds to dips",
+              "reps": 10
+            },
+            {
+              "name": "Mixed grip chin-ups",
+              "reps": 10,
+              "note": "switch grip every 5 reps"
+            },
+            {
+              "name": "Resistance band face pulls",
+              "reps": 10
+            },
+            {
+              "name": "Dragon flags",
+              "reps": 10,
+              "note": "negatives if needed"
+            }
+          ]
+        }
+      ]
+    },
+    "lowerBody": {
+      "sections": [
+        {
+          "name": "Movement Prep",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Bear crawl",
+              "distance": "20 meters"
+            },
+            {
+              "name": "Crab walk",
+              "distance": "20 meters"
+            },
+            {
+              "name": "Duck walk",
+              "distance": "20 meters"
+            }
+          ]
+        },
+        {
+          "name": "Skill Work",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Assisted pistol squats",
+              "reps": 8,
+              "note": "each leg"
+            },
+            {
+              "name": "Jump lunges with hover",
+              "reps": 12
+            },
+            {
+              "name": "Side plank leg lifts",
+              "reps": 15,
+              "note": "each side"
+            }
+          ]
+        },
+        {
+          "name": "Power Complex",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Box jump to backward step-down",
+              "reps": 10,
+              "note": "each leg"
+            },
+            {
+              "name": "Lateral bounds with stick",
+              "reps": 15
+            },
+            {
+              "name": "Quick feet ladder drills",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "name": "Endurance Finish",
+          "exercises": [
+            {
+              "name": "Jump squats",
+              "reps": 100,
+              "note": "break as needed"
+            },
+            {
+              "name": "Split squat jumps",
+              "reps": 50,
+              "note": "each leg"
+            },
+            {
+              "name": "Burpee long jumps",
+              "reps": 25
+            }
+          ]
+        }
+      ]
+    },
+    "core": {
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "TRX body saw",
+              "reps": 15
+            },
+            {
+              "name": "Alternating V-ups",
+              "reps": 20
+            },
+            {
+              "name": "Cross-body mountain climbers",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "exercises": [
+            {
+              "name": "Swiss ball stir the pot",
+              "duration": "40 seconds"
+            },
+            {
+              "name": "Standing cable chops",
+              "reps": 15,
+              "note": "each side"
+            },
+            {
+              "name": "Reverse crunch to leg lower",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Single-arm farmer's walk",
+              "distance": "30 steps",
+              "note": "each side"
+            },
+            {
+              "name": "Side plank with hip lift",
+              "reps": 15,
+              "note": "each side"
+            },
+            {
+              "name": "Ab wheel with rotation",
+              "reps": 20
+            },
+            {
+              "name": "Hanging straight leg raise to toe touch",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    },
+    "fullBody": {
+      "sections": [
+        {
+          "name": "Pyramid",
+          "repScheme": [10, 8, 6, 4, 2],
+          "exercises": [
+            {
+              "name": "Dumbbell clean and press"
+            },
+            {
+              "name": "Burpees over dumbbells"
+            }
+          ]
+        },
+        {
+          "name": "Circuit",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Kettlebell swings",
+              "reps": 15
+            },
+            {
+              "name": "Push-ups",
+              "reps": 12
+            },
+            {
+              "name": "Air squats",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "name": "Finisher",
+          "duration": "1 minute",
+          "exercises": [
+            {
+              "name": "Wall balls"
+            },
+            {
+              "name": "Mountain climbers"
+            },
+            {
+              "name": "Squat jumps"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
