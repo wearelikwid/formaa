@@ -1,0 +1,383 @@
+{
+  "week1": {
+    "upperBody": {
+      "name": "Upper Body",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Chin ups",
+              "reps": 10,
+              "type": "bodyweight"
+            },
+            {
+              "name": "Pike push ups",
+              "reps": 10,
+              "type": "bodyweight"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "TRX/Ring row",
+              "reps": {
+                "weighted": 10,
+                "bodyweight": 4
+              },
+              "weight": {
+                "amount": 10,
+                "unit": "kg"
+              }
+            },
+            {
+              "name": "Ring push ups",
+              "variations": [
+                {
+                  "type": "weighted",
+                  "reps": 10,
+                  "weight": {
+                    "amount": 10,
+                    "unit": "kg"
+                  }
+                },
+                {
+                  "type": "bodyweight",
+                  "reps": 4,
+                  "alternativeName": "Wide push ups"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Neutral grip pull ups",
+              "reps": 10
+            },
+            {
+              "name": "Dips",
+              "reps": {
+                "min": 12,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Wide pull ups",
+              "reps": 10
+            },
+            {
+              "name": "TRX/Cable facepull",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    },
+    "lowerBody": {
+      "name": "Lower Body",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Sled push w/rage3 pull",
+              "notes": "backwards"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Nordic quad extensions",
+              "reps": 10
+            },
+            {
+              "name": "Barbell wall sit",
+              "duration": {
+                "min": 30,
+                "max": 40,
+                "unit": "seconds"
+              },
+              "weight": {
+                "min": 40,
+                "max": 60,
+                "unit": "kg"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Back squat",
+              "reps": 10,
+              "tempo": "2-1-2"
+            },
+            {
+              "name": "Barbell Romanian deadlift",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "DB split squat",
+              "side": "Right",
+              "reps": 10,
+              "weight": {
+                "min": 8,
+                "max": 10,
+                "unit": "kg",
+                "equipment": "DBs"
+              }
+            },
+            {
+              "name": "DB split squat",
+              "side": "Left",
+              "reps": 10,
+              "weight": {
+                "min": 8,
+                "max": 10,
+                "unit": "kg",
+                "equipment": "DBs"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Circuit 5",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Hip thrusters",
+              "reps": 10,
+              "equipment": ["machine", "bar"]
+            },
+            {
+              "name": "Single leg hamstring curl machine",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Circuit 6",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Barbell sumo squat",
+              "reps": 10
+            },
+            {
+              "name": "Lunge jumps",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Circuit 7",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Calf raises machine",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    },
+    "core": {
+      "name": "Core",
+      "type": "sequential",
+      "exercises": [
+        {
+          "name": "Tuck pike situps",
+          "reps": 15,
+          "notes": "tuck + pike = 1 rep"
+        },
+        {
+          "name": "Hollow rocks",
+          "reps": 15
+        },
+        {
+          "name": "KB Russian twist",
+          "reps": 15,
+          "weight": {
+            "amount": 8,
+            "unit": "kg"
+          },
+          "notes": "2 counts as 1"
+        },
+        {
+          "name": "Low plank weighted",
+          "duration": 40,
+          "unit": "seconds",
+          "weight": {
+            "amount": 10,
+            "unit": "kg"
+          }
+        },
+        {
+          "name": "V-sit",
+          "duration": 40,
+          "unit": "seconds"
+        },
+        {
+          "name": "TRX high plank tuck pike",
+          "reps": 15
+        },
+        {
+          "name": "Knee raises",
+          "reps": 10
+        },
+        {
+          "name": "Roll-outs with bar",
+          "reps": 10
+        },
+        {
+          "name": "Back extension rocking",
+          "reps": 15
+        },
+        {
+          "name": "Reverse crunch",
+          "reps": 15
+        },
+        {
+          "name": "Alternating toe touches",
+          "reps": 15
+        },
+        {
+          "name": "Bicycle crunches",
+          "reps": 15
+        },
+        {
+          "name": "Superman plank",
+          "duration": 40,
+          "unit": "seconds"
+        },
+        {
+          "name": "Side plank dips Right",
+          "reps": 10
+        },
+        {
+          "name": "Side plank dips Left",
+          "reps": 10
+        },
+        {
+          "name": "Wipers",
+          "reps": 10,
+          "notes": "2 counts as 1"
+        },
+        {
+          "name": "Hollow body static hold",
+          "duration": 30,
+          "unit": "seconds"
+        }
+      ]
+    },
+    "fullBody": {
+      "name": "Full Body",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "type": "AMRAP",
+          "duration": 12,
+          "unit": "minutes",
+          "exercises": [
+            {
+              "name": "Double DB clean & jerk",
+              "weight": {
+                "options": [12.5, 10],
+                "unit": "kg"
+              },
+              "repScheme": [3, 6, 9, 12]
+            },
+            {
+              "name": "Burpee over DB",
+              "repScheme": [3, 6, 9, 12]
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Man maker DB",
+              "reps": 8,
+              "weight": {
+                "amount": 12.5,
+                "unit": "kg"
+              }
+            },
+            {
+              "name": "KB swings",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Alternating DB snatch",
+              "reps": 16
+            },
+            {
+              "name": "Wall ball",
+              "reps": 16,
+              "weight": {
+                "amount": 20,
+                "unit": "lbs"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Deadlift to row with barbell",
+              "reps": 10,
+              "weight": {
+                "amount": 50,
+                "unit": "kg"
+              }
+            },
+            {
+              "name": "Thrusters barbell",
+              "reps": 10,
+              "weight": {
+                "amount": 35,
+                "unit": "kg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
