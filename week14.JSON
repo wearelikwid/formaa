@@ -1,11 +1,12 @@
 {
   "week14": {
     "upperBody": {
+      "name": "Upper Body",
       "circuits": [
         {
           "name": "Circuit 1",
           "rounds": 4,
-          "repScheme": [15, 12, 10, 8],
+          "description": "15,12,10,8 reps",
           "exercises": [
             {
               "name": "Weighted dips",
@@ -20,7 +21,7 @@
         {
           "name": "Circuit 2",
           "rounds": 4,
-          "repScheme": [15, 12, 10, 8],
+          "description": "15,12,10,8 reps",
           "exercises": [
             {
               "name": "Ring push-ups"
@@ -58,6 +59,7 @@
       ]
     },
     "lowerBody": {
+      "name": "Lower Body",
       "sections": [
         {
           "name": "Movement Prep",
@@ -138,6 +140,7 @@
       ]
     },
     "core": {
+      "name": "Core",
       "circuits": [
         {
           "name": "Circuit 1",
@@ -202,10 +205,11 @@
       ]
     },
     "fullBody": {
+      "name": "Full Body",
       "sections": [
         {
           "name": "Pyramid",
-          "repScheme": [10, 8, 6, 4, 2],
+          "description": "10-8-6-4-2",
           "exercises": [
             {
               "name": "Dumbbell clean and press"
@@ -235,16 +239,19 @@
         },
         {
           "name": "Finisher",
-          "duration": "1 minute",
+          "description": "1 minute each",
           "exercises": [
             {
-              "name": "Wall balls"
+              "name": "Wall balls",
+              "duration": "1 minute"
             },
             {
-              "name": "Mountain climbers"
+              "name": "Mountain climbers",
+              "duration": "1 minute"
             },
             {
-              "name": "Squat jumps"
+              "name": "Squat jumps",
+              "duration": "1 minute"
             }
           ]
         }
