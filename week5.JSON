@@ -1,0 +1,277 @@
+{
+  "week5": {
+    "upperBody": {
+      "name": "Upper Body",
+      "note": "Complete all exercises with descending reps (15-12-10-10)",
+      "exercises": [
+        {
+          "name": "DB row"
+        },
+        {
+          "name": "Incline DB chest press",
+          "note": "DB parallel"
+        },
+        {
+          "name": "Bar bench press flat"
+        },
+        {
+          "name": "Cable seated row"
+        },
+        {
+          "name": "Lat pull down narrow grip"
+        },
+        {
+          "name": "Incline DB chest flys"
+        },
+        {
+          "name": "Row barbell reverse grip"
+        },
+        {
+          "name": "Pushups"
+        }
+      ]
+    },
+    "lowerBody": {
+      "name": "Lower Body",
+      "emom": {
+        "duration": "10 minutes",
+        "exercises": [
+          {
+            "minute": 1,
+            "name": "Wall balls",
+            "reps": 12
+          },
+          {
+            "minute": 2,
+            "name": "Thrusters",
+            "reps": 12
+          }
+        ]
+      },
+      "circuitPairs": [
+        {
+          "pair": 1,
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "reps": 10
+            },
+            {
+              "name": "Pull ups",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "pair": 2,
+          "exercises": [
+            {
+              "name": "DB double snatches",
+              "weight": "12.5-15kg",
+              "reps": 12
+            },
+            {
+              "name": "Toe to bar",
+              "reps": "8-10"
+            }
+          ]
+        },
+        {
+          "pair": 3,
+          "exercises": [
+            {
+              "name": "Heavy sled push rayh rage3"
+            },
+            {
+              "name": "Burpees",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "pair": 4,
+          "exercises": [
+            {
+              "name": "Trap farmers walk",
+              "weight": "80kg",
+              "note": "rayh rage3"
+            },
+            {
+              "name": "Double unders",
+              "reps": 25
+            }
+          ]
+        }
+      ]
+    },
+    "core": {
+      "name": "Core",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Situp",
+              "reps": 15
+            },
+            {
+              "name": "Hollow rocks",
+              "reps": 15
+            },
+            {
+              "name": "Weighted low plank",
+              "weight": "10kg plate",
+              "duration": "40 seconds"
+            },
+            {
+              "name": "Hanging knee raises",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Side plank dip Right",
+              "reps": 15
+            },
+            {
+              "name": "Side plank dip Left",
+              "reps": 15
+            },
+            {
+              "name": "KB Russian twists",
+              "weight": "10-12kg",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Toe touches",
+              "reps": 20
+            },
+            {
+              "name": "Flutter kicks",
+              "reps": 15
+            },
+            {
+              "name": "Wipers",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "rounds": 3,
+          "note": "on back extension machine",
+          "exercises": [
+            {
+              "name": "Back extensions",
+              "weight": "10kg",
+              "reps": 10
+            },
+            {
+              "name": "Side crunches left",
+              "weight": "10kg",
+              "reps": 10
+            },
+            {
+              "name": "Side crunches right",
+              "weight": "10kg",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 5",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Cable rotations",
+              "reps": 10
+            },
+            {
+              "name": "Anti-rotation press",
+              "reps": 10,
+              "note": "each side"
+            }
+          ]
+        }
+      ]
+    },
+    "fullBody": {
+      "name": "Full Body",
+      "warmup": {
+        "exercises": [
+          {
+            "name": "Running",
+            "amount": "2 laps"
+          },
+          {
+            "rounds": 3,
+            "exercises": [
+              {
+                "name": "Push-up jacks",
+                "reps": 8
+              },
+              {
+                "name": "Half burpee",
+                "reps": 8
+              },
+              {
+                "name": "Squat jumps",
+                "reps": 8
+              }
+            ]
+          }
+        ]
+      },
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "note": "Barbell work (35-40kg)",
+          "exercises": [
+            {
+              "name": "Barbell row to deadlift",
+              "reps": 10
+            },
+            {
+              "name": "Barbell hang clean",
+              "reps": 10
+            },
+            {
+              "name": "Barbell push press",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "KB swings",
+              "reps": 20
+            },
+            {
+              "name": "Heavy slam ball",
+              "reps": 15
+            },
+            {
+              "name": "Burpee star jump",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
