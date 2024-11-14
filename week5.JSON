@@ -4,53 +4,37 @@
       "name": "Upper Body",
       "note": "Complete all exercises with descending reps (15-12-10-10)",
       "exercises": [
-        {
-          "name": "DB row"
-        },
-        {
-          "name": "Incline DB chest press",
-          "note": "DB parallel"
-        },
-        {
-          "name": "Bar bench press flat"
-        },
-        {
-          "name": "Cable seated row"
-        },
-        {
-          "name": "Lat pull down narrow grip"
-        },
-        {
-          "name": "Incline DB chest flys"
-        },
-        {
-          "name": "Row barbell reverse grip"
-        },
-        {
-          "name": "Pushups"
-        }
+        "DB row",
+        "Incline DB chest press (DB parallel)",
+        "Bar bench press flat",
+        "Cable seated row",
+        "Lat pull down narrow grip", 
+        "Incline DB chest flys",
+        "Row barbell reverse grip",
+        "Pushups"
       ]
     },
     "lowerBody": {
       "name": "Lower Body",
       "emom": {
+        "name": "EMOM",
         "duration": "10 minutes",
         "exercises": [
           {
             "minute": 1,
-            "name": "Wall balls",
+            "exercise": "Wall balls",
             "reps": 12
           },
           {
             "minute": 2,
-            "name": "Thrusters",
+            "exercise": "Thrusters",
             "reps": 12
           }
         ]
       },
-      "circuitPairs": [
+      "circuits": [
         {
-          "pair": 1,
+          "name": "Circuit Pair 1",
           "exercises": [
             {
               "name": "Deadlift",
@@ -63,7 +47,7 @@
           ]
         },
         {
-          "pair": 2,
+          "name": "Circuit Pair 2",
           "exercises": [
             {
               "name": "DB double snatches",
@@ -77,7 +61,7 @@
           ]
         },
         {
-          "pair": 3,
+          "name": "Circuit Pair 3",
           "exercises": [
             {
               "name": "Heavy sled push rayh rage3"
@@ -89,12 +73,11 @@
           ]
         },
         {
-          "pair": 4,
+          "name": "Circuit Pair 4",
           "exercises": [
             {
-              "name": "Trap farmers walk",
-              "weight": "80kg",
-              "note": "rayh rage3"
+              "name": "Trap farmers walk rayh rage3",
+              "weight": "80kg"
             },
             {
               "name": "Double unders",
@@ -209,29 +192,30 @@
     "fullBody": {
       "name": "Full Body",
       "warmup": {
+        "name": "Warm-up",
         "exercises": [
           {
             "name": "Running",
-            "amount": "2 laps"
-          },
-          {
-            "rounds": 3,
-            "exercises": [
-              {
-                "name": "Push-up jacks",
-                "reps": 8
-              },
-              {
-                "name": "Half burpee",
-                "reps": 8
-              },
-              {
-                "name": "Squat jumps",
-                "reps": 8
-              }
-            ]
+            "distance": "2 laps"
           }
-        ]
+        ],
+        "circuit": {
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Push-up jacks",
+              "reps": 8
+            },
+            {
+              "name": "Half burpee",
+              "reps": 8
+            },
+            {
+              "name": "Squat jumps",
+              "reps": 8
+            }
+          ]
+        }
       },
       "circuits": [
         {
