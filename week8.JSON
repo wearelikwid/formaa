@@ -7,56 +7,36 @@
         {
           "name": "Pair 1",
           "exercises": [
-            {
-              "name": "Incline DB chest press"
-            },
-            {
-              "name": "DB row"
-            }
+            "Incline DB chest press",
+            "DB row"
           ]
         },
         {
           "name": "Pair 2",
           "exercises": [
-            {
-              "name": "Flat bar bench press"
-            },
-            {
-              "name": "Wide pull up"
-            }
+            "Flat bar bench press",
+            "Wide pull up"
           ]
         },
         {
           "name": "Pair 3",
           "exercises": [
-            {
-              "name": "Shoulder press"
-            },
-            {
-              "name": "Reverse grip row with bar"
-            }
+            "Shoulder press",
+            "Reverse grip row with bar"
           ]
         },
         {
           "name": "Pair 4",
           "exercises": [
-            {
-              "name": "DB bicep hammer curls"
-            },
-            {
-              "name": "DB reverse flys"
-            }
+            "DB bicep hammer curls",
+            "DB reverse flys"
           ]
         },
         {
           "name": "Pair 5",
           "exercises": [
-            {
-              "name": "Dips"
-            },
-            {
-              "name": "Cable face pull"
-            }
+            "Dips",
+            "Cable face pull"
           ]
         }
       ]
@@ -69,9 +49,7 @@
             "name": "Rope",
             "duration": "3 minutes"
           },
-          {
-            "name": "Dynamic stretching"
-          }
+          "Dynamic stretching"
         ]
       },
       "circuits": [
@@ -79,12 +57,8 @@
           "name": "Circuit 1",
           "rounds": 3,
           "exercises": [
-            {
-              "name": "Sled push & pull"
-            },
-            {
-              "name": "Calf machine"
-            }
+            "Sled push & pull",
+            "Calf machine"
           ]
         },
         {
@@ -103,12 +77,8 @@
           "rounds": 4,
           "note": "15,12,10,10 reps",
           "exercises": [
-            {
-              "name": "Hack squat"
-            },
-            {
-              "name": "Romanian deadlift"
-            }
+            "Hack squat",
+            "Romanian deadlift"
           ]
         },
         {
@@ -116,12 +86,8 @@
           "rounds": 4,
           "note": "15,12,10,8 reps",
           "exercises": [
-            {
-              "name": "Back squat"
-            },
-            {
-              "name": "Sumo squat"
-            }
+            "Back squat",
+            "Sumo squat"
           ]
         },
         {
@@ -135,8 +101,9 @@
             {
               "name": "Barbell walking lunges",
               "weight": "40kg",
-              "steps": 12,
-              "note": "2 as 1"
+              "reps": 12,
+              "note": "2 as 1",
+              "unit": "steps"
             }
           ]
         },
@@ -257,7 +224,6 @@
       },
       "circuitPairs": [
         {
-          "number": 1,
           "exercises": [
             {
               "name": "Deadlift",
@@ -270,7 +236,6 @@
           ]
         },
         {
-          "number": 2,
           "exercises": [
             {
               "name": "DB double snatches",
@@ -284,11 +249,8 @@
           ]
         },
         {
-          "number": 3,
           "exercises": [
-            {
-              "name": "Heavy sled push"
-            },
+            "Heavy sled push",
             {
               "name": "Burpees",
               "reps": 8
@@ -296,7 +258,6 @@
           ]
         },
         {
-          "number": 4,
           "exercises": [
             {
               "name": "Trap farmers walk",
