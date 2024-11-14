@@ -8,7 +8,7 @@
           "exercises": [
             {
               "name": "Barbell Bench press",
-              "reps": ["15", "12", "10", "8"]
+              "reps": "15-12-10-8"
             },
             {
               "name": "Decline push ups",
@@ -16,7 +16,7 @@
             },
             {
               "name": "Reverse grip barbell row",
-              "reps": ["15", "12", "10", "8"]
+              "reps": "15-12-10-8"
             },
             {
               "name": "Neutral pull ups",
@@ -130,7 +130,8 @@
           "exercises": [
             {
               "name": "Single leg balance hold",
-              "duration": "30 sec each side"
+              "duration": "30 sec",
+              "note": "each side"
             },
             {
               "name": "Pistol squat progressions",
@@ -221,7 +222,7 @@
           {
             "name": "Hollow rocks",
             "duration": "30 seconds",
-            "note": "plus hold x 30 seconds"
+            "note": "+ hold x 30 seconds"
           },
           {
             "name": "Back extensions",
@@ -259,21 +260,11 @@
       "finishingPyramid": {
         "name": "Crunches / Back Extensions",
         "sets": [
-          {
-            "reps": "50/50"
-          },
-          {
-            "reps": "40/40"
-          },
-          {
-            "reps": "30/30"
-          },
-          {
-            "reps": "20/20"
-          },
-          {
-            "reps": "10/10"
-          }
+          "50/50",
+          "40/40",
+          "30/30",
+          "20/20",
+          "10/10"
         ]
       }
     },
@@ -290,8 +281,8 @@
             },
             {
               "name": "Wall balls",
-              "weight": "9 or 12kg",
-              "reps": 15
+              "reps": 15,
+              "weight": "9 or 12kg"
             },
             {
               "name": "Side kick through",
@@ -310,13 +301,13 @@
             },
             {
               "name": "KB thrusters",
-              "weight": "16kg",
-              "reps": 8
+              "reps": 8,
+              "weight": "16kg"
             },
             {
               "name": "KB swing",
-              "weight": "24kg",
-              "reps": 12
+              "reps": 12,
+              "weight": "24kg"
             }
           ]
         },
@@ -326,8 +317,8 @@
           "exercises": [
             {
               "name": "DB man makers",
-              "weight": "12.5 or 15kg",
-              "reps": 8
+              "reps": 8,
+              "weight": "12.5 or 15kg"
             },
             {
               "name": "DB front squat",
@@ -335,7 +326,7 @@
             },
             {
               "name": "DB single snatch",
-              "reps": "8 right, 8 left"
+              "note": "8 right, 8 left"
             }
           ]
         },
@@ -345,8 +336,8 @@
           "exercises": [
             {
               "name": "Barbell squat clean",
-              "weight": "40/45kg",
-              "reps": 8
+              "reps": 8,
+              "weight": "40/45kg"
             },
             {
               "name": "Toes to bar",
