@@ -1,62 +1,72 @@
 {
   "week12": {
     "upperBody": {
+      "name": "Upper Body",
       "rounds": 4,
-      "pullVariations": [
-        {
-          "name": "Wide pull ups",
-          "reps": 10
+      "sections": {
+        "pullVariations": {
+          "name": "Pull Variations",
+          "exercises": [
+            {
+              "name": "Wide pull ups",
+              "reps": 10
+            },
+            {
+              "name": "Chin ups", 
+              "reps": 10
+            },
+            {
+              "name": "Narrow grip pull up",
+              "reps": 10
+            },
+            {
+              "name": "Mixed grip pullup",
+              "reps": 8,
+              "note": "4 each grip"
+            },
+            {
+              "name": "Head bangers",
+              "reps": 15
+            }
+          ]
         },
-        {
-          "name": "Chin ups",
-          "reps": 10
-        },
-        {
-          "name": "Narrow grip pull up",
-          "reps": 10
-        },
-        {
-          "name": "Mixed grip pullup",
-          "reps": 8,
-          "note": "4 each grip"
-        },
-        {
-          "name": "Head bangers",
-          "reps": 15
+        "pushVariations": {
+          "name": "Push Variations",
+          "exercises": [
+            {
+              "name": "Straight bar dips",
+              "reps": 15
+            },
+            {
+              "name": "Incline push ups",
+              "reps": 20
+            },
+            {
+              "name": "Push ups",
+              "reps": 20
+            },
+            {
+              "name": "Diamond push ups",
+              "reps": 15
+            },
+            {
+              "name": "Hindu push ups",
+              "reps": "8-10"
+            },
+            {
+              "name": "Decline pushups",
+              "reps": 15
+            },
+            {
+              "name": "Pike pushups",
+              "reps": 8
+            }
+          ]
         }
-      ],
-      "pushVariations": [
-        {
-          "name": "Straight bar dips",
-          "reps": 15
-        },
-        {
-          "name": "Incline push ups",
-          "reps": 20
-        },
-        {
-          "name": "Push ups",
-          "reps": 20
-        },
-        {
-          "name": "Diamond push ups",
-          "reps": 15
-        },
-        {
-          "name": "Hindu push ups",
-          "reps": "8-10"
-        },
-        {
-          "name": "Decline pushups",
-          "reps": 15
-        },
-        {
-          "name": "Pike pushups",
-          "reps": 8
-        }
-      ]
+      }
     },
     "lowerBody": {
+      "name": "Lower Body",
       "sections": [
         {
           "name": "Plyometric Focus",
@@ -91,7 +101,8 @@
             },
             {
               "name": "Walking high knees with pause",
-              "reps": "20 steps"
+              "reps": 20,
+              "note": "steps"
             }
           ]
         },
@@ -136,6 +147,7 @@
       ]
     },
     "core": {
+      "name": "Core",
       "circuits": [
         {
           "name": "Circuit 1",
@@ -213,6 +225,7 @@
       ]
     },
     "fullBody": {
+      "name": "Full Body",
       "circuits": [
         {
           "name": "Circuit 1",
@@ -253,8 +266,7 @@
         },
         {
           "name": "Finisher",
-          "type": "AMRAP",
-          "duration": "3 minutes",
+          "description": "3 minutes AMRAP",
           "exercises": [
             {
               "name": "Push-ups",
