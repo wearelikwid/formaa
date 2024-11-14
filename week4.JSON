@@ -1,0 +1,291 @@
+{
+  "week4": {
+    "upperBody": {
+      "name": "Upper Body",
+      "note": "Complete 4 rounds of supersets",
+      "supersets": [
+        {
+          "name": "Superset 1",
+          "exercises": [
+            {
+              "name": "Neutral pull up",
+              "reps": 10
+            },
+            {
+              "name": "Dips",
+              "reps": "12-15"
+            }
+          ]
+        },
+        {
+          "name": "Superset 2",
+          "exercises": [
+            {
+              "name": "Row",
+              "note": "TRX or barbell 50-60kg",
+              "reps": 12
+            },
+            {
+              "name": "Weighted pushups",
+              "weight": "+15kg",
+              "reps": 10,
+              "additionalNote": "max bodyweight"
+            }
+          ]
+        },
+        {
+          "name": "Superset 3",
+          "exercises": [
+            {
+              "name": "DB complex",
+              "exercises": [
+                {
+                  "name": "Front raise",
+                  "reps": 10
+                },
+                {
+                  "name": "Side raise",
+                  "reps": 10
+                },
+                {
+                  "name": "Upright row",
+                  "reps": 10
+                }
+              ]
+            },
+            {
+              "name": "Cable Facepull",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Superset 4",
+          "exercises": [
+            {
+              "name": "Wide pullups",
+              "reps": 10
+            },
+            {
+              "name": "Decline push ups",
+              "note": "legs on bench",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Superset 5",
+          "exercises": [
+            {
+              "name": "Chin ups",
+              "reps": 10
+            },
+            {
+              "name": "DB shoulder press or Pike push ups",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    "lowerBody": {
+      "name": "Lower Body",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "weight": "12.5/16kg KB/DB",
+              "reps": 10
+            },
+            {
+              "name": "KB reverse lunges",
+              "note": "1 is 1",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Single leg hamstring curl machine",
+              "reps": 10
+            },
+            {
+              "name": "Nordic quads",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 4,
+          "note": "15,12,10,8 reps",
+          "exercises": [
+            {
+              "name": "Back squat"
+            },
+            {
+              "name": "Romanian Deadlift"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Zercher squat",
+              "reps": 10
+            },
+            {
+              "name": "Hip thrusters",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 5",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Step ups with bar",
+              "reps": 8,
+              "note": "each leg"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 6",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Single leg calf raises",
+              "weight": "15kg DB",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    "core": {
+      "name": "Core",
+      "warmup": {
+        "name": "Warm-up",
+        "rounds": 2,
+        "exercises": [
+          {
+            "name": "Crunches",
+            "reps": 40
+          },
+          {
+            "name": "Side crunch right",
+            "reps": 30
+          },
+          {
+            "name": "Side crunch left",
+            "reps": 30
+          },
+          {
+            "name": "Bicycle crunches",
+            "reps": 20
+          },
+          {
+            "name": "Tuck situps",
+            "reps": 20
+          },
+          {
+            "name": "Leg raises",
+            "reps": 20
+          },
+          {
+            "name": "Reverse crunch (hip raises)",
+            "reps": 20
+          },
+          {
+            "name": "Low plank",
+            "duration": "1:30 minutes"
+          }
+        ]
+      },
+      "mainCircuit": {
+        "name": "Main Circuit",
+        "note": "40 seconds on, 20 seconds off, 4 rounds",
+        "exercises": [
+          {
+            "name": "Back extensions"
+          },
+          {
+            "name": "V-ups"
+          },
+          {
+            "name": "TRX low plank"
+          },
+          {
+            "name": "Russian twists"
+          },
+          {
+            "name": "L-sit"
+          },
+          {
+            "name": "Leg raises on decline bench"
+          },
+          {
+            "name": "Roll outs"
+          },
+          {
+            "name": "Weighted situps with KB"
+          },
+          {
+            "name": "TRX high plank tuck pikes"
+          },
+          {
+            "name": "Hollow rocks"
+          }
+        ]
+      }
+    },
+    "fullBody": {
+      "name": "Full Body",
+      "rounds": 4,
+      "circuit": {
+        "name": "8-minute circuit",
+        "timing": "40 sec work/20 sec rest",
+        "exercises": [
+          {
+            "name": "Wall balls"
+          },
+          {
+            "name": "KB swings"
+          },
+          {
+            "name": "Burpee pull-ups"
+          },
+          {
+            "name": "KB squat clean"
+          },
+          {
+            "name": "Slam ball"
+          },
+          {
+            "name": "DB double snatch"
+          },
+          {
+            "name": "Row machine"
+          },
+          {
+            "name": "Side kick through"
+          }
+        ],
+        "finisher": {
+          "name": "Jump rope",
+          "duration": "2 minutes"
+        }
+      }
+    }
+  }
+}
