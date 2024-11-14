@@ -84,32 +84,30 @@
             return weekCard;
         }
 
-        function createWorkoutTypes(weekData) {
-            const workoutTypes = [
-                { display: 'Upper Body', key: 'upperBody' },
-                { display: 'Lower Body', key: 'lowerBody' },
-                { display: 'Core', key: 'core' },
-                { display: 'Full Body', key: 'fullBody' }
-            ];
+function createWorkoutTypes(weekData) {
+    const workoutTypes = [
+        { display: 'Upper Body', key: 'upperBody' },
+        { display: 'Lower Body', key: 'lowerBody' },
+        { display: 'Core', key: 'core' },
+        { display: 'Full Body', key: 'fullBody' }
+    ];
 
-            // Access the nested week structure
-            const weekDataContent = weekData.week1;
-
-            return workoutTypes.map(type => {
-                const workoutData = weekDataContent[type.key];
-                
-                return `
-                    <div class="workout-type">
-                        <div class="workout-header" onclick="toggleWorkout(this)">
-                            ${type.display}
-                        </div>
-                        <div class="workout-content">
-                            ${formatWorkoutData(workoutData)}
-                        </div>
-                    </div>
-                `;
-            }).join('');
-        }
+    return workoutTypes.map(type => {
+        // Access workoutData directly from weekData, not weekData.week1
+        const workoutData = weekData[type.key];
+        
+        return `
+            <div class="workout-type">
+                <div class="workout-header" onclick="toggleWorkout(this)">
+                    ${type.display}
+                </div>
+                <div class="workout-content">
+                    ${formatWorkoutData(workoutData)}
+                </div>
+            </div>
+        `;
+    }).join('');
+}
 
         function formatWorkoutData(workoutData) {
             if (!workoutData) {
