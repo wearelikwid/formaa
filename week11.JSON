@@ -1,6 +1,7 @@
 {
   "week11": {
     "upperBody": {
+      "name": "Upper Body",
       "circuits": [
         {
           "name": "Circuit 1",
@@ -8,10 +9,10 @@
           "exercises": [
             {
               "name": "Incline barbell bench press",
-              "reps": ["15", "12", "10", "8"]
+              "reps": "15-12-10-8"
             },
             {
-              "name": "Decline push ups", 
+              "name": "Decline push ups",
               "reps": "8-10"
             }
           ]
@@ -22,11 +23,11 @@
           "exercises": [
             {
               "name": "T-bar row",
-              "reps": ["15", "12", "10", "8"]
+              "reps": "15-12-10-8"
             },
             {
               "name": "Lat pull down narrow grip",
-              "reps": ["15", "12", "10", "8"]
+              "reps": "15-12-10-8"
             }
           ]
         },
@@ -100,6 +101,7 @@
       ]
     },
     "lowerBody": {
+      "name": "Lower Body",
       "circuits": [
         {
           "name": "Agility Circuit",
@@ -170,6 +172,7 @@
       ]
     },
     "core": {
+      "name": "Core",
       "circuits": [
         {
           "name": "Circuit 1",
@@ -276,6 +279,7 @@
       ]
     },
     "fullBody": {
+      "name": "Full Body",
       "warmup": {
         "exercises": [
           {
@@ -292,46 +296,46 @@
           }
         ]
       },
+      "barbellComplex": {
+        "name": "Barbell Complex",
+        "rounds": "3-4",
+        "note": "increase weight each round 30-35-40kg",
+        "exercises": [
+          {
+            "name": "Deadlift",
+            "reps": 8
+          },
+          {
+            "name": "Squat clean",
+            "reps": 8
+          },
+          {
+            "name": "Push press",
+            "reps": 8
+          },
+          {
+            "name": "Back squat",
+            "reps": 8
+          },
+          {
+            "name": "Reverse lunge",
+            "reps": 8
+          },
+          {
+            "name": "Burpee over bar",
+            "reps": 8
+          }
+        ]
+      },
       "circuits": [
-        {
-          "name": "Barbell Complex",
-          "rounds": "3-4",
-          "note": "increase weight each round 30-35-40kg",
-          "exercises": [
-            {
-              "name": "Deadlift",
-              "reps": 8
-            },
-            {
-              "name": "Squat clean",
-              "reps": 8
-            },
-            {
-              "name": "Push press",
-              "reps": 8
-            },
-            {
-              "name": "Back squat",
-              "reps": 8
-            },
-            {
-              "name": "Reverse lunge",
-              "reps": 8
-            },
-            {
-              "name": "Burpee over bar",
-              "reps": 8
-            }
-          ]
-        },
         {
           "name": "Circuit 2",
           "rounds": 4,
           "exercises": [
             {
               "name": "KB thrusters",
-              "weight": "12kg each side",
-              "reps": 10
+              "reps": 10,
+              "weight": "12kg each side"
             },
             {
               "name": "KB double swings",
@@ -339,8 +343,8 @@
             },
             {
               "name": "KB squat to upright row",
-              "weight": "16/20kg",
-              "reps": 12
+              "reps": 12,
+              "weight": "16/20kg"
             }
           ]
         },
@@ -350,8 +354,8 @@
           "exercises": [
             {
               "name": "DB double snatches",
-              "weight": "12.5/15kg",
-              "reps": 12
+              "reps": 12,
+              "weight": "12.5/15kg"
             },
             {
               "name": "DB row",
