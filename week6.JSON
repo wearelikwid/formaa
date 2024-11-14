@@ -29,12 +29,8 @@
           "rounds": 4,
           "note": "descending 15-12-10-8 reps",
           "exercises": [
-            {
-              "name": "Flat barbell bench press"
-            },
-            {
-              "name": "Reverse grip barbell row"
-            }
+            "Flat barbell bench press",
+            "Reverse grip barbell row"
           ]
         },
         {
@@ -103,21 +99,15 @@
           "name": "Circuit 2",
           "rounds": 2,
           "exercises": [
-            {
-              "name": "Sled push & pull"
-            }
+            "Sled push & pull"
           ]
         },
         {
           "name": "Circuit 3",
           "rounds": 5,
-          "note": "progressive weight",
+          "note": "progressive weight (60kg-70-75-80-90) x 12-10 reps",
           "exercises": [
-            {
-              "name": "Back squat",
-              "weights": [60, 70, 75, 80, 90],
-              "reps": "12-10"
-            }
+            "Back squat"
           ]
         },
         {
@@ -138,7 +128,7 @@
             {
               "name": "Walking lunges with bar",
               "weight": "40kg",
-              "steps": 12,
+              "reps": "12 steps",
               "note": "2 as 1"
             }
           ]
@@ -235,68 +225,44 @@
     "fullBody": {
       "name": "Full Body",
       "warmup": {
+        "name": "Warm-up",
         "exercises": [
           {
             "name": "Rope",
             "duration": "3 minutes"
-          },
-          {
-            "duration": "3 minutes",
-            "exercises": [
-              {
-                "name": "Plank pushups",
-                "reps": 3
-              },
-              {
-                "name": "Half burpees",
-                "reps": 3
-              },
-              {
-                "name": "Squats",
-                "reps": 3
-              }
-            ]
           }
-        ]
+        ],
+        "circuit": {
+          "duration": "3 minutes",
+          "exercises": [
+            {
+              "name": "Plank pushups",
+              "reps": 3
+            },
+            {
+              "name": "Half burpees",
+              "reps": 3
+            },
+            {
+              "name": "Squats",
+              "reps": 3
+            }
+          ]
+        }
       },
-      "barbellComplex": {
+      "mainCircuit": {
+        "name": "Barbell Complex",
         "rounds": 4,
-        "weight": "30-35-37.5kg",
-        "note": "8x8 format (8 reps each)",
-        "rest": "2-3 minutes between rounds",
+        "note": "8x8 format (8 reps each) - 30-35-37.5kg, Rest: 2-3 minutes between rounds",
         "exercises": [
-          {
-            "name": "Rollout",
-            "reps": 8
-          },
-          {
-            "name": "Pushups on bar",
-            "reps": 8
-          },
-          {
-            "name": "Deadlift",
-            "reps": 8
-          },
-          {
-            "name": "Rows",
-            "reps": 8
-          },
-          {
-            "name": "Hang clean",
-            "reps": 8
-          },
-          {
-            "name": "Push press",
-            "reps": 8
-          },
-          {
-            "name": "Squats",
-            "reps": 8
-          },
-          {
-            "name": "Front lunges",
-            "reps": 8
-          }
+          "Rollout",
+          "Pushups on bar",
+          "Deadlift", 
+          "Rows",
+          "Hang clean",
+          "Push press",
+          "Squats",
+          "Front lunges"
         ]
       }
     }
