@@ -1,0 +1,266 @@
+{
+  "week15": {
+    "upperBody": {
+      "name": "Upper Body",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Typewriter pull-ups",
+              "reps": 12
+            },
+            {
+              "name": "Diamond push-ups",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2", 
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Behind-the-neck pull-ups",
+              "reps": 10
+            },
+            {
+              "name": "Russian dips",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Ring muscle-ups",
+              "reps": 10,
+              "note": "or transitions"
+            },
+            {
+              "name": "Handstand push-ups",
+              "reps": 12,
+              "note": "wall-assisted"
+            },
+            {
+              "name": "Ring face pulls",
+              "reps": 15
+            },
+            {
+              "name": "Wide ring push-ups",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    "lowerBody": {
+      "name": "Lower Body",
+      "sections": [
+        {
+          "name": "Agility Ladder Complex",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "In-out runs"
+            },
+            {
+              "name": "Lateral high knees"
+            },
+            {
+              "name": "Single-leg hops"
+            }
+          ]
+        },
+        {
+          "name": "Balance Work",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Single-leg Romanian deadlift with hop",
+              "reps": 15,
+              "note": "each leg"
+            },
+            {
+              "name": "Walking lunges with knee drive",
+              "reps": 20
+            },
+            {
+              "name": "Cross-behind lunges",
+              "reps": 12,
+              "note": "each leg"
+            }
+          ]
+        },
+        {
+          "name": "Strength Focus",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Bulgarian split squat jumps",
+              "reps": 10,
+              "note": "each leg"
+            },
+            {
+              "name": "Single-leg glute bridges with march",
+              "reps": 15,
+              "note": "each leg"
+            },
+            {
+              "name": "Speed skater bounds",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "name": "Control Work",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Slow eccentric squats",
+              "note": "4 count down"
+            },
+            {
+              "name": "Single-leg calf raises with pause"
+            },
+            {
+              "name": "Wall sit to calf raise",
+              "duration": "45 sec"
+            }
+          ]
+        }
+      ]
+    },
+    "core": {
+      "name": "Core",
+      "sections": [
+        {
+          "name": "Supersets",
+          "rounds": 4,
+          "supersets": [
+            {
+              "exercises": [
+                {
+                  "name": "Dead hang to active hang",
+                  "duration": "30 seconds"
+                },
+                {
+                  "name": "Toes to bar",
+                  "reps": 15
+                }
+              ]
+            },
+            {
+              "exercises": [
+                {
+                  "name": "RKC plank",
+                  "duration": "45 seconds"
+                },
+                {
+                  "name": "Hip ups",
+                  "reps": 15
+                }
+              ]
+            },
+            {
+              "exercises": [
+                {
+                  "name": "Half-kneeling Pallof press",
+                  "reps": 20,
+                  "note": "each side"
+                },
+                {
+                  "name": "Cable woodchops",
+                  "reps": 15,
+                  "note": "each side"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Finisher",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "TRX pike to knee tuck",
+              "reps": 15
+            },
+            {
+              "name": "Hollow rocks",
+              "reps": 20
+            },
+            {
+              "name": "Back extensions with twist",
+              "reps": 15
+            },
+            {
+              "name": "L-sit progression",
+              "duration": "30 seconds"
+            }
+          ]
+        }
+      ]
+    },
+    "fullBody": {
+      "name": "Full Body",
+      "sections": [
+        {
+          "name": "AMRAP",
+          "duration": "12 minutes",
+          "exercises": [
+            {
+              "name": "Dumbbell snatch",
+              "reps": 8,
+              "note": "alternating"
+            },
+            {
+              "name": "Push-ups",
+              "reps": 10
+            },
+            {
+              "name": "Goblet squats",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Circuit",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Kettlebell swings",
+              "reps": 15
+            },
+            {
+              "name": "Ball slams",
+              "reps": 12
+            },
+            {
+              "name": "Burpees",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Finisher",
+          "description": "30-20-10",
+          "exercises": [
+            {
+              "name": "Jumping jacks"
+            },
+            {
+              "name": "Air squats"
+            },
+            {
+              "name": "Mountain climbers"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
