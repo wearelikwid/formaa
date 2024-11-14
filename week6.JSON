@@ -1,0 +1,304 @@
+{
+  "week6": {
+    "upperBody": {
+      "name": "Upper Body",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "DB high plank alternating row",
+              "weight": "15kg",
+              "reps": 10
+            },
+            {
+              "name": "DB front squat",
+              "weight": "12.5-15kg",
+              "reps": 10
+            },
+            {
+              "name": "DB snatch",
+              "weight": "12.5/15kg",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 4,
+          "note": "descending 15-12-10-8 reps",
+          "exercises": [
+            {
+              "name": "Flat barbell bench press"
+            },
+            {
+              "name": "Reverse grip barbell row"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Incline DB bench press",
+              "reps": 10
+            },
+            {
+              "name": "DB row",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Lat pull down",
+              "reps": 10
+            },
+            {
+              "name": "Chest fly machine",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 5",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Seated row",
+              "reps": 10
+            },
+            {
+              "name": "Incline pushups reverse grip",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    },
+    "lowerBody": {
+      "name": "Lower Body",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Single leg hamstring curl machine",
+              "reps": 12,
+              "note": "each leg"
+            },
+            {
+              "name": "Calf raises machine",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 2,
+          "exercises": [
+            {
+              "name": "Sled push & pull"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 5,
+          "note": "progressive weight",
+          "exercises": [
+            {
+              "name": "Back squat",
+              "weights": [60, 70, 75, 80, 90],
+              "reps": "12-10"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Romanian deadlift",
+              "weight": "70-90kg",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 5",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Walking lunges with bar",
+              "weight": "40kg",
+              "steps": 12,
+              "note": "2 as 1"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 6",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Hip thrusters machine",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    "core": {
+      "name": "Core",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Right side crunches on low back machine",
+              "weight": "10kg",
+              "reps": 10
+            },
+            {
+              "name": "Left side crunches",
+              "reps": 10
+            },
+            {
+              "name": "Wipers",
+              "reps": 10,
+              "note": "2 as 1"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "TRX low plank alternate knee to elbow",
+              "duration": "50 seconds"
+            },
+            {
+              "name": "Situps",
+              "reps": 20
+            },
+            {
+              "name": "Hollow rocks",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "TRX superman plank",
+              "note": "hands on TRX",
+              "duration": "40 seconds"
+            },
+            {
+              "name": "Roll outs",
+              "reps": 10
+            },
+            {
+              "name": "Hanging leg raises",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Back extension machine",
+              "weight": "10kg",
+              "reps": 15
+            },
+            {
+              "name": "Reverse plank",
+              "duration": "30 seconds"
+            }
+          ]
+        }
+      ]
+    },
+    "fullBody": {
+      "name": "Full Body",
+      "warmup": {
+        "exercises": [
+          {
+            "name": "Rope",
+            "duration": "3 minutes"
+          },
+          {
+            "duration": "3 minutes",
+            "exercises": [
+              {
+                "name": "Plank pushups",
+                "reps": 3
+              },
+              {
+                "name": "Half burpees",
+                "reps": 3
+              },
+              {
+                "name": "Squats",
+                "reps": 3
+              }
+            ]
+          }
+        ]
+      },
+      "barbellComplex": {
+        "rounds": 4,
+        "weight": "30-35-37.5kg",
+        "note": "8x8 format (8 reps each)",
+        "rest": "2-3 minutes between rounds",
+        "exercises": [
+          {
+            "name": "Rollout",
+            "reps": 8
+          },
+          {
+            "name": "Pushups on bar",
+            "reps": 8
+          },
+          {
+            "name": "Deadlift",
+            "reps": 8
+          },
+          {
+            "name": "Rows",
+            "reps": 8
+          },
+          {
+            "name": "Hang clean",
+            "reps": 8
+          },
+          {
+            "name": "Push press",
+            "reps": 8
+          },
+          {
+            "name": "Squats",
+            "reps": 8
+          },
+          {
+            "name": "Front lunges",
+            "reps": 8
+          }
+        ]
+      }
+    }
+  }
+}
