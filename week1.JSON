@@ -9,13 +9,11 @@
           "exercises": [
             {
               "name": "Chin ups",
-              "reps": 10,
-              "type": "bodyweight"
+              "reps": 10
             },
             {
               "name": "Pike push ups",
-              "reps": 10,
-              "type": "bodyweight"
+              "reps": 10
             }
           ]
         },
@@ -26,31 +24,26 @@
             {
               "name": "TRX/Ring row",
               "reps": {
-                "weighted": 10,
-                "bodyweight": 4
-              },
-              "weight": {
-                "amount": 10,
-                "unit": "kg"
+                "weighted": {
+                  "reps": 10,
+                  "weight": "10kg"
+                },
+                "bodyweight": {
+                  "reps": 4
+                }
               }
             },
             {
-              "name": "Ring push ups",
-              "variations": [
-                {
-                  "type": "weighted",
+              "name": "Ring push ups or Wide push ups",
+              "reps": {
+                "weighted": {
                   "reps": 10,
-                  "weight": {
-                    "amount": 10,
-                    "unit": "kg"
-                  }
+                  "weight": "10kg"
                 },
-                {
-                  "type": "bodyweight",
-                  "reps": 4,
-                  "alternativeName": "Wide push ups"
+                "bodyweight": {
+                  "reps": 4
                 }
-              ]
+              }
             }
           ]
         },
@@ -64,10 +57,7 @@
             },
             {
               "name": "Dips",
-              "reps": {
-                "min": 12,
-                "max": 15
-              }
+              "reps": "12-15"
             }
           ]
         },
@@ -96,7 +86,7 @@
           "exercises": [
             {
               "name": "Sled push w/rage3 pull",
-              "notes": "backwards"
+              "note": "backwards"
             }
           ]
         },
@@ -110,16 +100,8 @@
             },
             {
               "name": "Barbell wall sit",
-              "duration": {
-                "min": 30,
-                "max": 40,
-                "unit": "seconds"
-              },
-              "weight": {
-                "min": 40,
-                "max": 60,
-                "unit": "kg"
-              }
+              "weight": "40-60kg",
+              "duration": "30-40 seconds"
             }
           ]
         },
@@ -143,26 +125,14 @@
           "rounds": 3,
           "exercises": [
             {
-              "name": "DB split squat",
-              "side": "Right",
-              "reps": 10,
-              "weight": {
-                "min": 8,
-                "max": 10,
-                "unit": "kg",
-                "equipment": "DBs"
-              }
+              "name": "DB split squat Right",
+              "weight": "8-10kg DBs",
+              "reps": 10
             },
             {
-              "name": "DB split squat",
-              "side": "Left",
-              "reps": 10,
-              "weight": {
-                "min": 8,
-                "max": 10,
-                "unit": "kg",
-                "equipment": "DBs"
-              }
+              "name": "DB split squat Left",
+              "weight": "8-10kg DBs",
+              "reps": 10
             }
           ]
         },
@@ -172,8 +142,8 @@
           "exercises": [
             {
               "name": "Hip thrusters",
-              "reps": 10,
-              "equipment": ["machine", "bar"]
+              "equipment": "machine or bar",
+              "reps": 10
             },
             {
               "name": "Single leg hamstring curl machine",
@@ -209,12 +179,11 @@
     },
     "core": {
       "name": "Core",
-      "type": "sequential",
       "exercises": [
         {
           "name": "Tuck pike situps",
           "reps": 15,
-          "notes": "tuck + pike = 1 rep"
+          "note": "tuck + pike = 1 rep"
         },
         {
           "name": "Hollow rocks",
@@ -222,26 +191,18 @@
         },
         {
           "name": "KB Russian twist",
+          "weight": "8kg",
           "reps": 15,
-          "weight": {
-            "amount": 8,
-            "unit": "kg"
-          },
-          "notes": "2 counts as 1"
+          "note": "2 counts as 1"
         },
         {
           "name": "Low plank weighted",
-          "duration": 40,
-          "unit": "seconds",
-          "weight": {
-            "amount": 10,
-            "unit": "kg"
-          }
+          "weight": "10kg",
+          "duration": "40 seconds"
         },
         {
           "name": "V-sit",
-          "duration": 40,
-          "unit": "seconds"
+          "duration": "40 seconds"
         },
         {
           "name": "TRX high plank tuck pike",
@@ -273,8 +234,7 @@
         },
         {
           "name": "Superman plank",
-          "duration": 40,
-          "unit": "seconds"
+          "duration": "40 seconds"
         },
         {
           "name": "Side plank dips Right",
@@ -287,12 +247,11 @@
         {
           "name": "Wipers",
           "reps": 10,
-          "notes": "2 counts as 1"
+          "note": "2 counts as 1"
         },
         {
           "name": "Hollow body static hold",
-          "duration": 30,
-          "unit": "seconds"
+          "duration": "30 seconds"
         }
       ]
     },
@@ -302,15 +261,11 @@
         {
           "name": "Circuit 1",
           "type": "AMRAP",
-          "duration": 12,
-          "unit": "minutes",
+          "time": "12 minutes",
           "exercises": [
             {
               "name": "Double DB clean & jerk",
-              "weight": {
-                "options": [12.5, 10],
-                "unit": "kg"
-              },
+              "weight": "12.5 or 10kg",
               "repScheme": [3, 6, 9, 12]
             },
             {
@@ -325,11 +280,8 @@
           "exercises": [
             {
               "name": "Man maker DB",
-              "reps": 8,
-              "weight": {
-                "amount": 12.5,
-                "unit": "kg"
-              }
+              "weight": "12.5kg",
+              "reps": 8
             },
             {
               "name": "KB swings",
@@ -347,11 +299,8 @@
             },
             {
               "name": "Wall ball",
-              "reps": 16,
-              "weight": {
-                "amount": 20,
-                "unit": "lbs"
-              }
+              "weight": "20 lbs",
+              "reps": 16
             }
           ]
         },
@@ -361,19 +310,13 @@
           "exercises": [
             {
               "name": "Deadlift to row with barbell",
-              "reps": 10,
-              "weight": {
-                "amount": 50,
-                "unit": "kg"
-              }
+              "weight": "50kg",
+              "reps": 10
             },
             {
               "name": "Thrusters barbell",
-              "reps": 10,
-              "weight": {
-                "amount": 35,
-                "unit": "kg"
-              }
+              "weight": "35kg",
+              "reps": 10
             }
           ]
         }
