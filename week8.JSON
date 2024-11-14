@@ -1,0 +1,314 @@
+{
+  "week8": {
+    "upperBody": {
+      "name": "Upper Body",
+      "note": "Complete 4 rounds of each pair (15-12-10-8 reps)",
+      "pairs": [
+        {
+          "name": "Pair 1",
+          "exercises": [
+            {
+              "name": "Incline DB chest press"
+            },
+            {
+              "name": "DB row"
+            }
+          ]
+        },
+        {
+          "name": "Pair 2",
+          "exercises": [
+            {
+              "name": "Flat bar bench press"
+            },
+            {
+              "name": "Wide pull up"
+            }
+          ]
+        },
+        {
+          "name": "Pair 3",
+          "exercises": [
+            {
+              "name": "Shoulder press"
+            },
+            {
+              "name": "Reverse grip row with bar"
+            }
+          ]
+        },
+        {
+          "name": "Pair 4",
+          "exercises": [
+            {
+              "name": "DB bicep hammer curls"
+            },
+            {
+              "name": "DB reverse flys"
+            }
+          ]
+        },
+        {
+          "name": "Pair 5",
+          "exercises": [
+            {
+              "name": "Dips"
+            },
+            {
+              "name": "Cable face pull"
+            }
+          ]
+        }
+      ]
+    },
+    "lowerBody": {
+      "name": "Lower Body",
+      "warmup": {
+        "exercises": [
+          {
+            "name": "Rope",
+            "duration": "3 minutes"
+          },
+          {
+            "name": "Dynamic stretching"
+          }
+        ]
+      },
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Sled push & pull"
+            },
+            {
+              "name": "Calf machine"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Single leg hamstring curl machine",
+              "reps": 15,
+              "note": "each leg"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "rounds": 4,
+          "note": "15,12,10,10 reps",
+          "exercises": [
+            {
+              "name": "Hack squat"
+            },
+            {
+              "name": "Romanian deadlift"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "rounds": 4,
+          "note": "15,12,10,8 reps",
+          "exercises": [
+            {
+              "name": "Back squat"
+            },
+            {
+              "name": "Sumo squat"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 5",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "Hip thrusters",
+              "reps": 10
+            },
+            {
+              "name": "Barbell walking lunges",
+              "weight": "40kg",
+              "steps": 12,
+              "note": "2 as 1"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 6",
+          "rounds": 3,
+          "exercises": [
+            {
+              "name": "ATG split squat",
+              "reps": "8-10",
+              "note": "each leg"
+            }
+          ]
+        }
+      ]
+    },
+    "core": {
+      "name": "Core",
+      "circuits": [
+        {
+          "name": "Circuit 1",
+          "rounds": 4,
+          "exercises": [
+            {
+              "name": "Hollow rocks",
+              "reps": 10
+            },
+            {
+              "name": "Situps",
+              "reps": 15
+            },
+            {
+              "name": "Toe touches",
+              "reps": 20
+            },
+            {
+              "name": "Low plank",
+              "duration": "1 minute"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 2",
+          "exercises": [
+            {
+              "name": "Cable crunches",
+              "reps": 15
+            },
+            {
+              "name": "Leg raises on lower abs machine",
+              "reps": 15
+            },
+            {
+              "name": "Roll outs with bar",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3",
+          "exercises": [
+            {
+              "name": "Oblique leg raises on lower abs machine",
+              "reps": 12,
+              "note": "each side"
+            },
+            {
+              "name": "Side crunches on lower back machine",
+              "weight": "10kg",
+              "reps": 12,
+              "note": "each side"
+            },
+            {
+              "name": "Side high plank dip",
+              "reps": 12,
+              "note": "each side"
+            },
+            {
+              "name": "KB Russian twists",
+              "weight": "6-8kg",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Circuit 4",
+          "exercises": [
+            {
+              "name": "Back extensions on machine",
+              "weight": "10kg",
+              "reps": 15
+            },
+            {
+              "name": "KB/DB single leg deadlift",
+              "reps": 10,
+              "note": "each side"
+            }
+          ]
+        }
+      ]
+    },
+    "fullBody": {
+      "name": "Full Body",
+      "emom": {
+        "duration": "10 minutes",
+        "exercises": [
+          {
+            "minute": 1,
+            "name": "Wall balls",
+            "reps": 12
+          },
+          {
+            "minute": 2,
+            "name": "Thrusters",
+            "reps": 12
+          }
+        ]
+      },
+      "circuitPairs": [
+        {
+          "number": 1,
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "reps": 10
+            },
+            {
+              "name": "Pull-ups",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "exercises": [
+            {
+              "name": "DB double snatches",
+              "weight": "12.5-15kg",
+              "reps": 12
+            },
+            {
+              "name": "Toe to bar",
+              "reps": "8-10"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "exercises": [
+            {
+              "name": "Heavy sled push"
+            },
+            {
+              "name": "Burpees",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "exercises": [
+            {
+              "name": "Trap farmers walk",
+              "weight": "80kg"
+            },
+            {
+              "name": "Double unders",
+              "reps": 25
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
