@@ -70,7 +70,7 @@
             },
             {
               "name": "Reverse fly",
-              "note": "DB or machine",
+              "equipment": "DB or machine",
               "reps": 15
             }
           ]
@@ -92,9 +92,7 @@
               "name": "Achilles raises on the wall",
               "reps": 15
             },
-            {
-              "name": "Sled push w/rage3 pull"
-            }
+            "Sled push w/rage3 pull"
           ]
         },
         {
@@ -156,7 +154,8 @@
           "rounds": 3,
           "exercises": [
             {
-              "name": "KB single hand situp shoulder press Right/Left",
+              "name": "KB single hand situp shoulder press",
+              "note": "Right/Left",
               "reps": 10
             },
             {
@@ -182,7 +181,8 @@
               "reps": 15
             },
             {
-              "name": "Side plank dip Right/Left",
+              "name": "Side plank dip",
+              "note": "Right/Left",
               "reps": 12
             },
             {
@@ -195,30 +195,14 @@
           "name": "Core Circuit",
           "note": "40 seconds on, 20 seconds off",
           "exercises": [
-            {
-              "name": "Back extensions"
-            },
-            {
-              "name": "Weighted situp on bosu"
-            },
-            {
-              "name": "Hanging leg raises right/left over parallette"
-            },
-            {
-              "name": "TRX rollouts"
-            },
-            {
-              "name": "High plank picks tuck"
-            },
-            {
-              "name": "Leg raises"
-            },
-            {
-              "name": "Hanging knee raises"
-            },
-            {
-              "name": "L-sit"
-            }
+            "Back extensions",
+            "Weighted situp on bosu",
+            "Hanging leg raises right/left over parallette",
+            "TRX rollouts",
+            "High plank picks tuck",
+            "Leg raises",
+            "Hanging knee raises",
+            "L-sit"
           ]
         }
       ]
@@ -226,6 +210,7 @@
     "fullBody": {
       "name": "Full Body",
       "warmup": {
+        "name": "Warm-up",
         "exercises": [
           {
             "name": "Rope",
@@ -256,9 +241,7 @@
               "name": "Barbell thrusters",
               "weight": "30-35kg"
             },
-            {
-              "name": "Burpees jump over bar"
-            }
+            "Burpees jump over bar"
           ]
         },
         {
