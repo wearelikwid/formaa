@@ -231,6 +231,7 @@
       "circuits": [
         {
           "name": "For Time Circuit 1",
+          "type": "For Time",
           "note": "Alternate between exercises when resting",
           "exercises": [
             {
@@ -247,6 +248,7 @@
         },
         {
           "name": "For Time Circuit 2",
+          "type": "For Time",
           "note": "Alternate between exercises when resting",
           "exercises": [
             {
@@ -262,6 +264,7 @@
         },
         {
           "name": "For Time Circuit 3",
+          "type": "For Time",
           "exercises": [
             {
               "name": "Slam ball",
@@ -270,8 +273,8 @@
             },
             {
               "name": "Side kick through",
-              "note": "2 as 1",
-              "reps": 100
+              "reps": 100,
+              "note": "2 as 1"
             }
           ]
         }
